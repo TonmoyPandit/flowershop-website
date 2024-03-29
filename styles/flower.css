@@ -1,9 +1,29 @@
 /* nav related styles */
-div > h3{
-    font-family: 'lato' , sans-serif;
+div>h3 {
+    font-family: 'lato', sans-serif;
     font-family: 'open sans', sans-serif;
     color: #272727;
 }
-.banner{
+
+.banner {
+    display: flex;
     justify-content: space-between;
+    background-color: #fceef1;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-bottom: 150px;
+}
+
+.banner-description {
+    margin-bottom: 25px;
+    color: #7c7778;
+}
+
+.btn-primary {
+    background-color: #e55473;
+    color: white;
+    border: none;
+    padding: 10px 25px 10px 25px;
+    border-radius: 5px;
 }
