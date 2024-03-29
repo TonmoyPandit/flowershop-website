@@ -1,5 +1,5 @@
-/* nav related styles */
-div>h3 {
+/* common styles */
+.banner-title {
     font-family: 'lato', sans-serif;
     font-family: 'open sans', sans-serif;
     color: #272727;
@@ -13,11 +13,13 @@ div>h3 {
     padding-left: 100px;
     padding-right: 100px;
     margin-bottom: 150px;
+    font-size: 25px;
 }
 
 .banner-description {
     margin-bottom: 25px;
     color: #7c7778;
+    font-size: 12px;
 }
 
 .btn-primary {
@@ -26,4 +28,50 @@ div>h3 {
     border: none;
     padding: 10px 25px 10px 25px;
     border-radius: 5px;
+}
+
+/* main related styles */
+.second-step {
+    text-align: center;
+}
+
+.second-title {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.second-description {
+    font-size: 10px;
+}
+
+.fuljhuri {
+    display: flex;
+    margin-bottom: 100px;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 100px;
+}
+
+.flower-1 {
+    background-color: #f2dee7;
+    padding: 40px 40px 0px 40px;
+    border-radius: 220px 220px 0px 0px;
+}
+
+.flower-2 {
+    background-color: #d9eff1;
+    padding: 40px 40px 0px 40px;
+    border-radius: 220px 220px 0px 0px;
+    background-size: 200px;
+    margin-left: 5px;
+}
+
+.flower-3 {
+    background-color: #e3ebdb;
+    padding: 40px 40px 0px 40px;
+    border-radius: 220px 220px 0px 0px;
+    background-size: 200px;
+    margin-left: 5px;
 }
