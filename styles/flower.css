@@ -36,12 +36,12 @@
 }
 
 .second-title {
-    font-size: 20px;
+    font-size: 25px;
     margin-bottom: 20px;
 }
 
 .second-description {
-    font-size: 10px;
+    font-size: 16px;
 }
 
 .fuljhuri {
@@ -49,9 +49,9 @@
     margin-bottom: 100px;
     justify-content: space-around;
     align-items: center;
-    margin-left: 300px;
-    margin-right: 300px;
-    margin-top: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 40px;
 }
 
 .flower-1 {
@@ -74,4 +74,29 @@
     border-radius: 220px 220px 0px 0px;
     background-size: 200px;
     margin-left: 5px;
+}
+
+.caption {
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline gray;
+}
+
+.third-step {
+    display: flex;
+    background-color: #f4f4f4;
+    margin-bottom: 100px;
+    height: 200px;
+    text-align: center;
+    align-items: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    justify-content: space-between;
+    border-radius: 15px;
+    padding: 30px;
+}
+
+.third {
+    margin-top: 20px;
+    font-size: 16px;
 }
